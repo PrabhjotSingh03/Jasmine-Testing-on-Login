@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="assign1.js"></script>
+    <script src="lib/md5.js"></script>
+    <script src="src/CheckLogin.js"></script>
+    <script src="src/md5Encrypt.js"></script>  
+    <title>Login Box</title>
+</head>
+<body>
+     <!--Heading of the web page-->
+	 <h1>Login Page</h1>
+
+	 <div class="login">
+	  <!--Form-->
+	 <form id="login_form">
+		 <fieldset>
+			 <legend>User Authentication</legend>
+ 
+			 <!--Label and input field for user name-->
+			 <label class="login__label" for="username">Username: </label>
+			 <input class="login_txtbox" type="text" id="username" name="username"> <br>
+ 
+			 <!--Label and input field for password-->
+			 <label class="login__label" for="password">Password: </label>
+			 <input type="password" id="password" name="password"> <br><br>
+ 
+			 <!--Button to submit the form-->
+			 <button type="submit">Login</button>
+			 
+		 </fieldset>
+		</form>
+	 </div>
+ 
+	 <!--Hidden output div-->
+	 <div class="output">
+		 <p id="output__text"></p>
+	 </div>
+	 
+</body>
+</html>
+<!-- <body>
+    <form class="login" name="form_login">
+		<fieldset class="login__fieldset">
+			<legend >User Authentication</legend>
+			<label for="username" class="login__label">Username:</label>
+			<input type="text" id="username" name="username" class="login__txtbox" required><br><br>
+			<label for="password" class="login__label">Password:</label>
+			<input type="password" id="password" name="password" class="login__txtbox" required><br><br>
+			<button type="submit" class="login__button">Login</button>
+		</fieldset>
+	</form>
+
+	<div id="output" class="output">
+		<p class="output__text"></p>
+	</div>
+</body> -->
